@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Tutorial03">
         <activity
             android:name=".MainActivity2"
+            android:label="welcome"
             android:exported="true"  android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"

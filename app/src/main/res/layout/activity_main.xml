@@ -18,10 +18,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="130dp"
+            android:textSize="50sp"
             android:gravity="center"
             android:text="Login"
             android:textColor="@color/black"
-            android:textSize="50sp"
             android:textStyle="italic" />
 
         <LinearLayout
@@ -48,8 +48,8 @@
             <EditText
                 android:id="@+id/edtusername"
                 android:layout_width="230dp"
+                android:layout_height="50dp"
                 android:text="admin007@gmail.com"
-                android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textSize="20sp" />
@@ -77,9 +77,9 @@
             <EditText
                 android:id="@+id/edtpassword"
                 android:layout_width="230dp"
+                android:layout_height="50dp"
                 android:text="1234567"
                 android:inputType="textPassword"
-                android:layout_height="40dp"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -91,8 +91,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
             android:layout_marginBottom="35dp"
-            android:onClick="fun1"
-            android:text="login" />
+            android:text="login"
+            android:onClick="function"/>
 
 
     </LinearLayout>
